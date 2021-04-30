@@ -1,0 +1,142 @@
+.username{
+
+	background-color:#eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+	color: rgb(7, 7, 7);
+}
+
+.password{
+
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+	color: rgb(17, 17, 16);
+}
+
+
+.login_button{
+
+
+	margin-left: 10px;
+	margin-top: 0px;
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+center{
+
+	font-size: 40px;
+	font-family: 'Courier New', Courier, monospace;
+}
+.login_page{
+
+	color: rgb(235, 226, 234);
+}
+
+
+
+
+@media screen and (max-width: 350px) {
+
+
+	.username{
+
+		background-color: #eee;
+		border: none;
+		padding: 12px 15px;
+		margin: 8px 0;
+		width: 70%;
+		color: rgb(230, 103, 71);
+	}
+	
+	.password{
+	
+		background-color: #eee;
+		border: none;
+		padding: 12px 15px;
+		margin: 8px 0;
+		width: 70%;
+		color: rgb(230, 103, 71);
+		
+	}
+	.login_button{
+
+
+	
+		border-radius: 20px;
+		border: 1px solid #FF4B2B;
+		background-color: #FF4B2B;
+		color: #FFFFFF;
+		font-size: 12px;
+		font-weight: bold;
+		padding: 10px 25px 10px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		transition: transform 80ms ease-in;
+	}
+	
+}
+
+
+
+@media screen and (max-width: 300px) {
+
+
+	.username{
+
+		background-color: #eee;
+		border: none;
+		padding: 12px 15px;
+		margin: 8px 0;
+		width: 70%;
+		color: rgb(230, 103, 71);
+	}
+	
+	.password{
+	
+		background-color: #eee;
+		border: none;
+		padding: 12px 15px;
+		margin: 8px 0;
+		width: 70%;
+		color: rgb(230, 103, 71);
+		
+	}
+	.login_button{
+
+
+	
+		border-radius: 20px;
+		border: 1px solid #FF4B2B;
+		background-color: #FF4B2B;
+		color: #FFFFFF;
+		font-size: 12px;
+		font-weight: bold;
+		padding: 10px 25px 10px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		transition: transform 80ms ease-in;
+	}
+	
+}
